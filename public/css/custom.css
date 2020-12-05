@@ -1,0 +1,60 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.font-weight-500 {
+  font-weight: 500;
+}
+
+.font-poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.font-weight-700 {
+  font-weight: 700;
+}
+
+.btn-sm {
+  font-size: 14px;
+  padding: 8px 20px;
+}
+
+.btn-md {
+  font-size: 16px;
+  padding: 8px 20px;
+  letter-spacing: 0.1px;
+}
+
+.btn-lg {
+  font-size: 20px;
+  padding: 8px 20px;
+}
+
+.bg-none {
+  background-color: transparent;
+}
+
+.table th {
+  vertical-align: middle;
+}
+
+.results {
+  font-size: 16px;
+  color: #646464;
+}
+
+.texth-green {
+  padding: 5px 12px;
+  background-color: #dcffdf;
+  color: #1cc88a;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.texth-red {
+  padding: 5px 20px;
+  background-color: #ffe4e4;
+  color: #e74a3b;
+  font-weight: bold;
+  border-radius: 5px;
+}

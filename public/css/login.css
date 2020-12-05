@@ -1,0 +1,88 @@
+* {
+	font-family: "Roboto", sans-serif;
+	box-sizing: border-box;
+}
+
+.font-poppins {
+	font-family: "Poppins", sans-serif;
+}
+
+.font-roboto {
+	font-family: "Roboto", sans-serif;
+}
+
+.heading .title {
+	display: block;
+	color: #4e73df;
+	font-family: "Poppins", sans-serif;
+}
+
+.text-primary {
+	color: #4e73df;
+}
+
+.wrapper {
+	position: relative;
+}
+
+.custom-shape-divider-bottom-1605782288 {
+	/* position: absolute; */
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	line-height: 0;
+	z-index: -1;
+}
+
+.custom-shape-divider-bottom-1605782288 svg {
+	position: relative;
+	display: block;
+	width: calc(152% + 1.3px);
+	height: 279px;
+}
+
+.custom-shape-divider-bottom-1605782288 .shape-fill {
+	fill: #4e73df;
+}
+
+@media (maxogin-width: 576px) {
+	.heading .title {
+		display: none;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+	.heading .title {
+		display: none;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.heading .title {
+		display: none;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.heading .title {
+		display: none;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.heading {
+		padding-top: 100px;
+	}
+
+	.heading .title {
+		display: block;
+		font-size: 60px;
+		color: #4e73df;
+		font-family: "Poppins", sans-serif;
+	}
+}
